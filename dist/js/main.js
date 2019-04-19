@@ -256,7 +256,7 @@ function initMap() {
         map: map,
         draggable: true,
         animation: google.maps.Animation.DROP,
-        icon: '../img/placeholder.png',
+        icon: '../dist/img/placeholder.png',
         title: 'Hello World!'
     });
     
