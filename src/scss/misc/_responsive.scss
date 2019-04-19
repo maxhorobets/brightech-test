@@ -1,0 +1,271 @@
+@media screen and (max-width:1200px) {
+    .maincontent {
+    
+        .top-section {
+            padding: 30px 0;
+            
+            .contacts-data {          
+    
+                .section-title {
+                    font-size: 40px;
+                    margin: 0 0 40px 0;
+                }
+    
+                .top-section-content {
+                    grid-column-gap: 20px;
+    
+                    .headquarters {                
+    
+                        .contacts-info {
+        
+                            .address-and-number {
+                                margin: 0 30px 0 0;
+    
+                                .address {
+                                    margin: 0 0 25px 0;
+                                }                              
+                            }
+
+                            .contacts-list {
+        
+                                .contacts-item {
+        
+                                    .contacts-item-link {
+                                        text-transform: lowercase;
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    .technical-support {
+    
+                        .technical-support-descr {
+                            margin: 0 0 25px 0;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .location-section {   
+    
+            .offices-and-maps {
+                padding: 30px 15px;
+    
+                .offices-tabs {
+    
+                    .tabs-list {
+                        margin: 0 0 25px 0;
+    
+                        .tabs-item {                        
+                            margin-right: 15px;
+                        }
+                    }
+    
+                    .location {
+    
+                        .block-title {
+                            margin: 0 0 25px 0;
+                        }
+                    }
+                }
+            }
+    
+        }
+    
+        .contsct-us {
+    
+            .form-and-descr {
+                grid-column-gap: 20px;
+                padding: 30px 15px;
+    
+                .form {
+                    .contact-form {
+    
+                        .input-wrap { 
+                            
+                            .contact-input {
+                                padding: 0 0 24px 100px;
+                            }          
+    
+                        }
+    
+                        .mail-input {
+                            margin-bottom: 25px;
+                        }
+    
+                        .checkbox-wrap {
+                            margin-bottom: 25px;  
+                            
+                            .checkbox + label {
+                                font-size: 15px;
+                            }
+                        }
+    
+                        .send-form-btn {
+                            padding: 25px 70px;                      
+                        }
+                    }
+                }
+
+                .descr {
+                    .descr-text {
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    
+        .notify {
+            min-width: 300px;
+            height: 120px;
+        }
+    }
+}
+
+@media screen and (max-width:900px) {
+    .maincontent {
+    
+        .top-section {
+            padding: 25px 0;
+            
+            .contacts-data {          
+    
+                .section-title {
+                    font-size: 35px;
+                    margin: 0 0 25px 0;
+                }
+    
+                .top-section-content {
+                    grid-column-gap: 0;
+                    grid-row-gap: 15px;
+                    grid-template-columns: 1fr;
+                    grid-template-rows: 1fr 1fr;
+    
+                    .headquarters {                
+    
+                        .contacts-info {
+                            justify-content: space-between;
+        
+                            .address-and-number {
+                                margin: 0 25px 0 0;
+    
+                                .address {
+                                    margin: 0 0 25px 0;
+                                }                              
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    
+        .location-section {   
+    
+            .offices-and-maps {
+                padding: 25px 15px;
+                grid-row-gap: 15px;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr 1fr;
+
+                .maps {
+                    position: relative;
+
+                    #map {
+                        width: 100%;
+                    }
+                }
+            }
+    
+        }
+    
+        .contsct-us {
+    
+            .form-and-descr {
+                padding: 25px 15px;                   
+                grid-column-gap: 0;
+                grid-row-gap: 15px;
+                grid-template-columns: 1fr;
+                grid-template-rows: 1fr;
+
+                .descr {
+                    display: none;
+                }
+        
+                .form {
+                    .contact-form {
+    
+                        .input-wrap { 
+                            
+                            .contact-input {
+                                padding: 0 0 24px 60px;
+                            }          
+    
+                        }
+
+                        .send-form-btn {
+                            @include flexCenter;   
+                            margin: 0 auto;                  
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .maincontent {
+    
+        .top-section {
+            
+            .contacts-data {          
+    
+                .section-title {
+                    font-size: 30px;
+                }
+    
+                .top-section-content {
+                    grid-row-gap: 25px;
+                }
+            }
+        }
+    
+        .location-section {   
+    
+            .offices-and-maps {
+                grid-row-gap: 25px;
+            }
+    
+        }
+    
+        .contsct-us {
+    
+            .form-and-descr {
+                grid-row-gap: 25px;
+            }
+        }
+
+        .notify {
+            bottom: 20px;
+            right: initial;
+            width: 100%;
+            min-width: 100%;
+            transform: translateY(100%);
+        }
+
+        .error {
+            transform: translateY(0);
+        }
+    
+        .success {
+            transform: translateY(0);
+        }
+    }
+}
+
+
+
+
+

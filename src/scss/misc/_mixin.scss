@@ -1,0 +1,91 @@
+@mixin container{
+    max-width: 1765px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+    @media screen and (max-width:1765px) {
+        max-width: 1200px;
+    }
+
+    @media screen and (max-width:1200px) {
+        max-width: 900px;
+    }
+
+    @media screen and (max-width:900px) {
+        max-width: 768px;
+    }
+
+    @media screen and (max-width:768px) {
+        max-width: 576px;
+    }
+}
+
+@mixin flexCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+
+@mixin title{
+    font-size: 48px;
+    font-weight: 500;
+    margin: 0 0 55px 0;
+    letter-spacing: 1.01px;
+    line-height: 1;
+
+    @media screen and (max-width:1765px) {
+        font-size: 36px;
+        margin: 0 0 25px 0;
+    }
+
+    @media screen and (max-width:1200px) {
+        font-size: 30px;
+    }
+
+    @media screen and (max-width:768px) {
+        font-size: 28px;
+    }
+}
+
+@mixin sectionText {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 42.25px;
+
+    @media screen and (max-width:1765px) {
+        font-size: 16px;
+    }
+
+    @media screen and (max-width:768px) {
+        line-height: 1.5;
+    }
+}
+
+@mixin number {
+    color: #000000;
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: 1.03px;
+
+    @media screen and (max-width:1765px) {
+        font-size: 24px;
+    }
+
+    @media screen and (max-width:1200px) {
+        font-size: 20px;
+    }
+
+    @media screen and (max-width:768px) {
+        font-size: 18px;
+    }
+}
+
+@mixin inputText {
+    font-size: 28px;
+    font-weight: 500;
+    letter-spacing: 1.01px;
+
+    @media screen and (max-width:1765px) {
+        font-size: 16px;
+    }    
+}

@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:500" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.min.css">
+        <title>Max Horobets</title>
+    </head>
+
+    <body>
+        <main class="maincontent">
+
+            <section class="top-section">
+
+                <section class="contacts-data">
+
+                    <h1 class="section-title">
+                        Contacts
+                    </h1>
+
+                    <section class="top-section-content">
+
+                        <div class="headquarters">
+        
+                            <h2 class="block-title">
+                                GMS Headquarters
+                            </h2>
+        
+                            <div class="contacts-info">
+        
+                                <div class="address-and-number">
+        
+                                    <p class="address">
+
+                                        <span>
+                                            Global Message Services Ukraine LLC
+                                        </span>
+
+                                        <span>
+                                            Bundesstrasse 5 / 3rd Floor
+                                        </span>
+
+                                        <span>
+                                            6300 Zug
+                                        </span>
+
+                                        <span>
+                                            Switzerland
+                                        </span>
+
+                                    </p>
+        
+                                    <a href="tel:+41415446200" class="number">
+                                        +41 41 544 62 00
+                                    </a>
+        
+                                </div>
+        
+                                <ul class="contacts-list">
+        
+                                    <li class="contacts-item">
+        
+                                        <span class="contacts-item-label">
+                                            Email
+                                        </span>
+        
+                                        <a href="mailto:INFO@GMS-WORLDWIDE.COM" class="contacts-item-link">
+                                            INFO@GMS-WORLDWIDE.COM
+                                        </a>
+        
+                                    </li>
+
+                                    <li class="contacts-item">
+        
+                                        <span class="contacts-item-label">
+                                            Send message                                        
+                                        </span>
+        
+                                        <a href="viber://pa?chatURI=+41415446200" class="contacts-item-link">
+                                            VIBER US
+                                        </a>
+        
+                                    </li>
+
+                                    <li class="contacts-item">
+        
+                                        <span class="contacts-item-label">
+                                            Send form                                                                              
+                                        </span>
+        
+                                        <a href="#contact-form" class="contacts-item-link">
+                                            CONTACT US  
+                                        </a>
+        
+                                    </li>
+        
+                                </ul>
+        
+                            </div>
+        
+                        </div>
+        
+                        <div class="technical-support">
+        
+                            <h2 class="block-title">
+                                Technical support 24/7
+                            </h2>
+
+                            <p class="technical-support-descr">
+                                GMS understand that it can be hard to follow all new technologies. We regularly
+                                provide for all our clients educational training to make your operator’s business
+                                earn more and better though our best practices. 
+                            </p>
+
+                            <a href="tel:+41415446200" class="number">
+                                +41 41 544 62 00
+                            </a>
+        
+                        </div>
+
+                    </section>
+
+
+                </section>
+
+            </section>
+
+            <section class="location-section">
+
+                <section class="offices-and-maps">
+
+                    <div class="offices-tabs">
+
+                        <h2 class="block-title">
+                            Our Offices
+                        </h2>
+
+                        <ul class="tabs-list">
+
+                            <li onclick="changeTab(0)" class="tabs-item">
+                                KYIV     
+                            </li>
+
+                            <li onclick="changeTab(1)" class="tabs-item">
+                                NEW YORK   
+                            </li>
+
+                            <li onclick="changeTab(2)" class="tabs-item">
+                                BARCELONA 
+                            </li>
+
+                            <li onclick="changeTab(3)" class="tabs-item">
+                                ROME
+                            </li>
+
+                        </ul>
+
+                        <div class="location">
+
+                            <h2 class="block-title">
+                                Global Message Services Ukraine LLC
+                            </h2>
+
+                            <p class="physical-adress">
+
+                                <span>
+                                    Kyiv, Stepan Bandera, 33
+                                </span>
+
+                                <span>
+                                    02066
+                                </span>
+
+                                <span>
+                                    Ukraine
+                                </span>
+
+                            </p>
+
+                        </div>
+
+                        <div class="location">
+
+                            <h2 class="block-title">
+                                Global Message Services USA LLC
+                            </h2>
+
+                            <p class="physical-adress">
+
+                                <span>
+                                    New York, Stepan Bandera, 33
+                                </span>
+
+                                <span>
+                                    02065
+                                </span>
+
+                                <span>
+                                    USA
+                                </span>
+
+                            </p>
+
+                        </div>
+
+                        <div class="location">
+
+                            <h2 class="block-title">
+                                Global Message Services Spain LLC
+                            </h2>
+
+                            <p class="physical-adress">
+
+                                <span>
+                                    Barcelona, Stepan Bandera, 33
+                                </span>
+
+                                <span>
+                                    02064
+                                </span>
+
+                                <span>
+                                    Spain
+                                </span>
+
+                            </p>
+
+                        </div>
+
+                        <div class="location">
+
+                            <h2 class="block-title">
+                                Global Message Services Italy LLC
+                            </h2>
+
+                            <p class="physical-adress">
+
+                                <span>
+                                    Rome, Stepan Bandera, 33
+                                </span>
+
+                                <span>
+                                    02064
+                                </span>
+
+                                <span>
+                                    Italy
+                                </span>
+
+                            </p>
+
+                        </div>
+
+                    </div> 
+
+                    <div class="maps">
+                        <div id="map">
+
+                        </div>
+                    </div>
+
+                </section>
+
+            </section>
+
+            <section id="contact-form" class="contsct-us">
+
+                <section class="form-and-descr">
+
+                    <div class="form">
+
+                        <h2 class="block-title">
+                            Contact Us
+                        </h2>
+
+                        <form oninput="checkForm()" class="contact-form">
+
+                            <div class="input-wrap">
+
+                                <input class="contact-input name" type="text">
+
+                                <span class="pseudo-placeholder">
+                                    Name
+                                </span>
+
+                                <span class="error-name">
+
+                                </span>
+
+                            </div>
+
+                            <div class="input-wrap phone-input">
+
+                                <input oninput="validPhone(this.value)" class="contact-input phone" type="number">
+
+                                <span class="pseudo-placeholder">
+                                    Phone
+                                </span>
+
+                                <span class="error-phone">
+
+                                </span>
+
+                            </div>
+
+                            <div class="input-wrap mail-input">
+
+                                <input oninput="validMail(this.value)" class="contact-input email" type="email">
+
+                                <span class="pseudo-placeholder">
+                                    Email
+                                </span>
+
+                                <span class="error-mail">
+
+                                </span>
+
+                            </div>
+
+                            <div class="checkbox-wrap">
+                                <input onchange="checkForm()" type="checkbox" class="checkbox" id="checkbox" />
+                                <label for="checkbox">I agree the processing of personal data</label>
+                            </div>
+
+                            <button disabled onclick="sendForm(event)" class="send-form-btn">
+                                Get in touch
+                            </button>
+
+
+                        </form>
+
+                    </div>
+
+                    <div class="descr">
+                        <p class="descr-text">
+                            Please tell us more about your request and give us info about your
+                            comapny and countru
+                        </p>
+                    </div>
+
+                </section>
+
+            </section>
+
+            <section class="notify">
+    
+            </section>
+
+        </main>
+
+
+    </body>
+
+    <script src="./js/main.js"></script>
+    <script         
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAdSQHLZ1jYU0QT-brdfP81TwK22SBCW64&callback=initMap"
+        async 
+        defer
+    >
+    </script>
+
+</html>
