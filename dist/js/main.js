@@ -290,7 +290,7 @@ let setMap = (coords) => {
     marker = new google.maps.Marker({
         position: coords,
         map: map,
-        icon: '../img/placeholder.png',
+        icon: '../dist/img/placeholder.png',
         title: 'Our office'
     });
     marker.setMap(map);
