@@ -384,7 +384,7 @@ let checkForm = () => {
 
 let sendForm = (event) => {
     event.preventDefault();
-    fetch('http://httpbin.org/post', { method: 'POST'})
+    fetch('https://httpbin.org/post', { method: 'POST'})
     .then(function({ status }) {
         status && status === 200 ? activateNotify(true) : activateNotify(false)
     })
